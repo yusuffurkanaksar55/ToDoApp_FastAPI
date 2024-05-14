@@ -9,8 +9,6 @@ from starlette import status
 
 app=FastAPI()
 
-##Deneme
-
 models.Base.metadata.create_all(bind=engine)
 
 def get_db():
